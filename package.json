@@ -16,14 +16,17 @@
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
-    "@docusaurus/plugin-debug": "^3.9.1",
+    "@docusaurus/plugin-debug": "3.8.1",
+    "@docusaurus/plugin-ideal-image": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "^3.0.0",
     "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.0.0",
+    "framer-motion": "^12.23.22",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
@@ -46,5 +49,10 @@
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "fsevents"
+    ]
   }
 }
