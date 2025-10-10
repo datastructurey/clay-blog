@@ -23,6 +23,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.0.0",
     "framer-motion": "^12.23.22",
+    "mini-svg-data-uri": "^1.4.4",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -33,7 +34,17 @@
     "@docusaurus/module-type-aliases": "3.8.1",
     "@docusaurus/tsconfig": "3.8.1",
     "@docusaurus/types": "3.8.1",
-    "typescript": "~5.6.2"
+    "@iconify/react": "^6.0.2",
+    "@stylistic/eslint-plugin": "2.13.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "@typescript-eslint/eslint-plugin": "8.20.0",
+    "eslint": "9.18.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-tailwindcss": "3.18.0",
+    "typescript": "~5.7.3",
+    "typescript-eslint": "^8.20.0"
   },
   "browserslist": {
     "production": [

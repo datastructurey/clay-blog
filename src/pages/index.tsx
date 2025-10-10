@@ -1,7 +1,7 @@
 import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HeaderBlog from "@site/src/components/HeaderBlog";
+import HomeBlog from "@site/src/components/HomeBlog";
 
 
 export default function Home(): ReactNode {
@@ -12,7 +12,7 @@ export default function Home(): ReactNode {
       title={`欢迎访问`}
       description="Description will go into a meta tag in <head />">
       <main>
-        <HeaderBlog></HeaderBlog>
+        <HomeBlog></HomeBlog>
       </main>
     </Layout>
   );
