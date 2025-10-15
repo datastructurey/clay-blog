@@ -27,8 +27,7 @@
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^4.1.14"
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
@@ -36,13 +35,16 @@
     "@docusaurus/types": "3.8.1",
     "@iconify/react": "^6.0.2",
     "@stylistic/eslint-plugin": "2.13.0",
+    "@tailwindcss/postcss": "^4.1.14",
     "@tailwindcss/typography": "^0.5.16",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.1",
     "@typescript-eslint/eslint-plugin": "8.20.0",
+    "autoprefixer": "^10.4.21",
     "eslint": "9.18.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-tailwindcss": "3.18.0",
+    "tailwindcss": "^4.1.14",
     "typescript": "~5.7.3",
     "typescript-eslint": "^8.20.0"
   },

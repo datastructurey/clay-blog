@@ -5,7 +5,7 @@ import plugin from 'tailwindcss/plugin'
 const {default: flattenColorPalette} = require('tailwindcss/lib/util/flattenColorPalette')
 
 const twConfig: Config = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './docs/**/*.mdx'],
   darkMode: ['selector', '[data-theme="dark"]'],
   theme: {
     extend: {
