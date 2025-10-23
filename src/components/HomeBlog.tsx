@@ -3,8 +3,8 @@ import type {BlogPost} from "@docusaurus/plugin-content-blog";
 import {motion} from 'framer-motion'
 import {cn} from "@site/src/lib/utils";
 import Link from "@docusaurus/Link";
-import IdealImage from "@theme/IdealImage"
 import Translate from '@docusaurus/Translate'
+// import IdealImage from "@theme/IdealImage"
 import {Icon} from '@iconify/react'
 import React, {JSX} from "react";
 
@@ -56,7 +56,7 @@ function BlogItem({post}: { post: BlogPost }) {
     >
       {frontMatter.image && (
         <Link href={permalink} className="max-h-[240px] w-full cursor-pointer overflow-hidden object-cover">
-          <IdealImage src={frontMatter?.image} alt={title} img=""/>
+          {/*<IdealImage src={frontMatter.image} alt={title} img="" />*/}
         </Link>
       )}
       <div className="card__body">
