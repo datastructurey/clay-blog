@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Clay",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Clay Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.学习": {
+    "message": "学习",
+    "description": "Navbar item with label 学习"
+  },
+  "item.label.生活": {
+    "message": "生活",
+    "description": "Navbar item with label 生活"
+  }
+}

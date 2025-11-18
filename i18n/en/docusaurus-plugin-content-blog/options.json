@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Blog",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "做一只情绪稳定的水豚，面对生活的狂风暴雨",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "博文",
+    "description": "The label for the left sidebar"
+  }
+}
